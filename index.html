@@ -1,0 +1,39 @@
+<div class="main">
+  <div class="left">
+    <div class="card big-quote" id="hero-card">
+      <div>
+        <div class="symbol" id="hero-symbol">—</div>
+        <div class="small" id="hero-desc">Live market quote</div>
+      </div>
+      <div style="text-align:right">
+        <div class="price" id="hero-price">—</div>
+        <div id="hero-change" class="change">—</div>
+      </div>
+    </div>
+
+    <div class="card ticker-wrap">
+      <div class="ticker" id="ticker-track"></div>
+    </div>
+
+  </div>
+
+  <div class="right">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <div style="font-weight:700">Watchlist</div>
+        <div class="small">Edit in Google Sheet</div>
+      </div>
+      <div class="list" id="watchlist"></div>
+    </div>
+
+    <div class="card" style="display:flex;flex-direction:column;gap:8px">
+      <div style="font-weight:700">Notes</div>
+      <div class="small">Publish the sheet and paste the CSV link into the script variable SHEET_CSV_URL. Refresh to update data.</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div>Data: Google Sheets (GOOGLEFINANCE)</div>
+  <div id="last-updated">Last update: —</div>
+</div>
